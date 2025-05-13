@@ -14,6 +14,7 @@ app.use(cors({
   origin:[
     'http://localhost:5173',
     'http://localhost:5174',
+    'https://backend-authentication-nu.vercel.app/'
   ]
 }));
 app.use(express.json());
